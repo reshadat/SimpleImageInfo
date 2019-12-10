@@ -13,7 +13,7 @@ public class SimpleImageInfo {
             size = file.length();
             processStream(is);
         } catch (IOException ex) {
-            System.out.println("Couldn't get size/width/height for " + file.getName());
+            System.out.println("Couldn't get size,width,height for " + file.getName());
         }
     }
 
